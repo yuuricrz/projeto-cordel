@@ -76,6 +76,9 @@ main p{
     width: 55vw;
     border-radius: 15px;
 }
+
+/* --- Footer --- */
+
 footer{
     background-color: black;
     color: white;
@@ -91,6 +94,8 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+/* --- Responsive --- */
 
 @media (max-width:670px){
     header{
