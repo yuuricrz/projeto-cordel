@@ -24,7 +24,7 @@ header{
 }
 header h1{
     font-family: 'Passion One', cursive;
-    font-size: 7.3rem;
+    font-size: 10vw;
     font-variant: small-caps;
 }
 header p{
@@ -42,6 +42,7 @@ header a:hover{
 
 /* --- Main --- */
 main p{
+    margin: 30px 0;
     padding: 25px 0 35px 75px;
     line-height: 8vw;
     font-size: 3.5vw;
@@ -49,11 +50,11 @@ main p{
 }
 .two{
     background: url('imagens/background001.jpg');
-    padding: 25px;
-    color: white;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    padding: 25px;
+    color: white;
     width: 100vw;
 }
 .two .second{
@@ -100,11 +101,6 @@ footer a:hover{
 @media (max-width:670px){
     header{
        height: 250px;
-    }
-    header h1{
-        font-family: 'Passion One', cursive;
-        font-size: 4.3rem;
-        font-variant: small-caps;
     }
     header p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
